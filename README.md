@@ -10,7 +10,7 @@
 ---
 
 #### Quick overview
-Extract and structure FilmAffinity data using our four core endpoints:
+Extract and structure FilmAffinity data using our core endpoints:
 
 - `GET /v1/search`: text-based title search.
 - `GET /v1/item`: detailed movie/TV item data by Filmaffinity `item_id` or `url`.
