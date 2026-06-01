@@ -38,6 +38,10 @@ Frequent requests are served directly from our cache for **fast, stable response
 * **Search results:** 48 hours
 * **Discover lists:** 48 hours
 
+**Speed-optimized** select (`cache_bd: true`): Forces the API to search directly within the cache for faster response times, regardless of data freshness. This is the default behavior.
+
+**Freshness-optimized** select (`cache_bd: false`): Forces the API to query FA directly to ensure real-time, up-to-date content.
+
 _Tip: Responses served from the cache will include the `"cached": true` flag in the JSON payload._
 
 ### API Reference and Examples
