@@ -1,4 +1,4 @@
-# FilmAffinity Data API
+# 🎬 FilmAffinity Data API
 
 **Subscribe & API key:** https://rapidapi.com/superdatai-superdatai/api/filmaffinity-data-api/
 
