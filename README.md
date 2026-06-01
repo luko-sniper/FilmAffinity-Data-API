@@ -19,7 +19,7 @@ Extract and structure FilmAffinity data using our core endpoints:
 #### Features
 - Consistent, integration-friendly JSON responses.
 - Caching layer for better latency and stability.
-- Optional **`cache_bd`** on every endpoint: speed (`true`, default) or always-fresh data (`false`).
+- Optional **`cache_bd`** on every endpoint: **speed** (`true`, default) or **always-fresh data** (`false`).
 - Resilient backend with automated fallbacks and AI mechanisms.
 - Language support (`lang=es|en`) **Español** and **English**.
 - Built for apps, dashboards, bots, and automations.
