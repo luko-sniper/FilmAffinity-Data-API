@@ -31,18 +31,26 @@ Extract and structure FilmAffinity data using our core endpoints:
 
 ### Optimized Performance via Caching
 
-Frequent requests are served directly from our cache for **fast, stable responses**.
+Responses can be served from our persistent cache or refreshed on demand.
 
 **Standard Refresh Rates (TTL):**
 * **Item details:** 7 days
 * **Search results:** 48 hours
 * **Discover lists:** 48 hours
 
-**Speed-optimized** select (`cache_bd: true`): Forces the API to search directly within the cache for faster response times, regardless of data freshness. This is the default behavior.
+**Query parameter `cache_bd` (all endpoints):**
 
-**Freshness-optimized** select (`cache_bd: false`): Forces the API to query FA directly to ensure real-time, up-to-date content.
+| Value | Behavior | Best for |
+|-------|----------|----------|
+| **`true`** (default) | Use stored data when available (**no expiry on read**). On a cache miss, the API fetches and stores the result. | Fast, stable integrations; lower extraction usage |
+| **`false`** | **Always fetch fresh data** on each request and update the store (a later `true` request can reuse it). | When you need the latest FilmAffinity data |
 
-_Tip: Responses served from the cache will include the `"cached": true` flag in the JSON payload._
+Responses include `cached` (`true` if the payload was already stored and `cache_bd` (echo of the mode you used).
+
+If data is still being prepared, you may get **`warming: true`** and **`retry_after`** — retry the same request after the suggested delay.
+
+_Tip: Use `cache_bd=true` when **speed** and stability matter most; use `cache_bd=false` only when you need **real-time data** (higher latency)._
+
 
 ### API Reference and Examples
 
