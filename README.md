@@ -49,7 +49,7 @@ Responses include `cached` (`true` if the payload was already stored and `cache_
 
 If data is still being prepared, you may get **`warming: true`** and **`retry_after`** — retry the same request after the suggested delay.
 
-_Tip: Use `cache_bd=true` when **speed** and stability matter most; use `cache_bd=false` only when you need **real-time data** (higher latency)._
+_Tip: Use `cache_bd=true` when **speed and stability** matter most; use `cache_bd=false` only when you need **real-time data** (higher latency)._
 
 
 ### API Reference and Examples
