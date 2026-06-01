@@ -50,3 +50,9 @@ All documentation related to each endpoint.
 | `GET /v1/item/by-id` | Full item details by numeric ID | [How to use](https://rapidapi.com/superdatai-superdatai/api/filmaffinity-data-api/tutorials/how-to-use-item-by-id) |
 | `GET /v1/item?url=` | Full item details by FilmAffinity URL | [How to use](https://rapidapi.com/superdatai-superdatai/api/filmaffinity-data-api/tutorials/how-to-use-item-by-url) |
 | `GET /v1/discover` | Get custom FilmAffinity listings (**Ultra / Mega** plans only) | [How to use](https://rapidapi.com/superdatai-superdatai/api/filmaffinity-data-api/tutorials/how-to-use-discover) |
+
+---
+
+## Legal
+
+The API is provided by an independent developer. It is not affiliated with, sponsored by, or endorsed by FilmAffinity or any related trademark owner.
