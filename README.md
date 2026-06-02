@@ -46,7 +46,7 @@ Responses can be served from our persistent cache or refreshed on demand.
 | **`true`** (default) | Use stored data when available (**no expiry on read**). On a cache miss, the API fetches and stores the result. | Fast, stable integrations; lower extraction usage |
 | **`false`** | **Always fetch fresh data** on each request and update the store (a later `true` request can reuse it). | When you need the latest FilmAffinity data |
 
-Responses include `cached` (`true` if the payload was already stored and `cache_bd` (echo of the mode you used).
+Responses include `cached` (`true` if the payload was already stored and `cache_bd`.
 
 If data is still being prepared, you may get **`warming: true`** and **`retry_after`** — retry the same request after the suggested delay.
 
