@@ -23,6 +23,7 @@ Extract and structure FilmAffinity data using our core endpoints:
 - Resilient backend with automated fallbacks and AI mechanisms.
 - Language support (`lang=es|en`) **Español** and **English**.
 - Built for apps, dashboards, bots, and automations.
+- **Adaptive HTML extraction**: AI-powered to handle many HTML changes.
 
 ### Additional Information
 
