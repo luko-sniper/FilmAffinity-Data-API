@@ -7,6 +7,7 @@
 2. Get your `X-RapidAPI-Key` from the dashboard.
 3. Call `/v1/search?search=matrix&lang=es` (via RapidAPI host — see hub **Endpoints** tab).
 
+
 **Fields include:** `id`, `title`, `year`, `scores`, `posters`, `type`, `url`, `category`, `genre`, `country`, `platform`, `votes`, `duration`, `actors`, `critics`, `synopsis`, and more...
 
 ---
