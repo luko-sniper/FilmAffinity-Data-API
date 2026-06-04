@@ -1,6 +1,6 @@
 ## Resumen (EN ESPAÑOL)
 
-**FilmAffinity Data API**: Impulsa tu plataforma y aplicaciones con la comunidad de cine en español líder. Accede a una red activa de más de 1 millón de usuarios.
+**FilmAffinity Data API**: Impulsa tu plataforma y aplicaciones con la comunidad de cine en español líder con más de 1 millón de usuarios.
 
 Extrae y estructura datos de FilmAffinity mediante nuestros endpoints principales:
 
@@ -30,7 +30,7 @@ Extrae y estructura datos de FilmAffinity mediante nuestros endpoints principale
 
 #### Quick overview
 
-**FilmAffinity Data API**: Fuel your platform and apps with the premier Spanish-language film community. Access a thriving network of over 1M+ users.
+**FilmAffinity Data API**: Power your platform and apps with the leading Spanish-language film community, boasting over 1 million users.
 
 Extract and structure FilmAffinity data using our core endpoints:
 
