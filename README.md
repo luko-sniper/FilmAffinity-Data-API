@@ -1,4 +1,4 @@
-# Resumen (EN ESPAÑOL)
+## Resumen (EN ESPAÑOL)
 
 **FilmAffinity Data API**: Impulsa tu plataforma y aplicaciones con la comunidad de cine en español líder. Accede a una red activa de más de 1 millón de usuarios.
 
