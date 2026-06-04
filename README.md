@@ -1,3 +1,19 @@
+#### Resumen (EN ESPAÑOL)
+
+**FilmAffinity Data API**: Impulsa tu plataforma y aplicaciones con la comunidad de cine en español líder. Accede a una red activa de más de 1 millón de usuarios.
+
+Extrae y estructura datos de FilmAffinity mediante nuestros endpoints principales:
+
+- `GET /v1/search`: búsqueda de títulos por texto.
+- `GET /v1/item`: datos detallados de películas y series por `item_id` o `url` de FilmAffinity.
+- `GET /v1/discover`: listados personalizados con filtros avanzados (`category`, `genre`, `country`, `year_from`, `year_to`, `min_votes`, `duration_min`, `duration_max`, `platform`, `lang`, `limit_results`).
+
+**Campos incluidos:** `id`, `title`, `year`, `scores`, `posters`, `type`, `url`, `category`, `genre`, `country`, `platform`, `votes`, `duration`, `actors`, `critics`, `synopsis`, y más…
+
+&gt; **Nota:** Esta es la **única sección en español**. El resto de la documentación del hub (características, caché, planes, tutoriales...) está en **inglés**.
+
+---
+
 # 🎬 FilmAffinity Data API
 
 **Subscribe & API key:** https://rapidapi.com/superdatai-superdatai/api/filmaffinity-data-api/
@@ -21,20 +37,6 @@ Extract and structure FilmAffinity data using our core endpoints:
 - `GET /v1/search`: text-based title search.
 - `GET /v1/item`: detailed movie/TV item data by Filmaffinity `item_id` or `url`.
 - `GET /v1/discover`: get custom listings using advanced filters (`category`, `genre`, `country`, `year_from`, `year_to`, `min_votes`, `duration_min`, `duration_max`, `platform`, `lang`, `limit_results`).
-
-#### Resumen (EN ESPAÑOL)
-
-**FilmAffinity Data API**: Impulsa tu plataforma y aplicaciones con la comunidad de cine en español líder. Accede a una red activa de más de 1 millón de usuarios.
-
-Extrae y estructura datos de FilmAffinity mediante nuestros endpoints principales:
-
-- `GET /v1/search`: búsqueda de títulos por texto.
-- `GET /v1/item`: datos detallados de películas y series por `item_id` o `url` de FilmAffinity.
-- `GET /v1/discover`: listados personalizados con filtros avanzados (`category`, `genre`, `country`, `year_from`, `year_to`, `min_votes`, `duration_min`, `duration_max`, `platform`, `lang`, `limit_results`).
-
-**Campos incluidos:** `id`, `title`, `year`, `scores`, `posters`, `type`, `url`, `category`, `genre`, `country`, `platform`, `votes`, `duration`, `actors`, `critics`, `synopsis`, y más…
-
-&gt; **Nota:** Esta es la **única sección en español**. El resto de la documentación del hub (características, caché, planes, tutoriales...) está en **inglés**.
 
 #### Features
 - Consistent, integration-friendly JSON responses.
