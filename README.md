@@ -30,7 +30,7 @@ Extrae y estructura datos de FilmAffinity mediante nuestros endpoints principale
 
 #### Quick overview
 
-**FilmAffinity Data API**: Power your platform and apps with the leading Spanish-language film community, boasting over 1 million users.
+**FilmAffinity Data API**: Power your platform and apps with the leading Spanish-language film community, boasting over 1M+ users.
 
 Extract and structure FilmAffinity data using our core endpoints:
 
